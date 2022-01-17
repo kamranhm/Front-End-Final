@@ -1,0 +1,848 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar.scrolled .logo-img {
+    color: black;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.scroll-top i {
+    background-color: #7e57ff;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+}
+
+.myBtn {
+    padding: 15px 30px;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #7e57ff;
+    transition: all 0.3s ease;
+}
+
+.myBtn:hover {
+    background-color: #7e57ff;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: all .2s ease;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar.scrolled a {
+    color: rgb(92, 92, 92) !important;
+}
+
+.navbar.scrolled {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.navbar .right-nav .nav-link {
+    color: white !important;
+}
+
+.navbar.scrolled .right-nav .nav-link {
+    color: black !important;
+}
+
+.navbar .right-nav .nav-link.sign-btn {
+    background-color: white;
+    color: black !important;
+    border-radius: 50px;
+    padding: 15px 34px 15px 34px !important;
+    transition: all 0.3s ease !important;
+}
+
+.navbar .right-nav .nav-link.sign-btn:hover {
+    background-color: #7e57ff !important;
+    color: white !important;
+}
+
+.navbar.scrolled .right-nav .nav-link.sign-btn:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar.scrolled .right-nav .nav-link.sign-btn {
+    background-color: #7e57ff;
+    color: white !important;
+}
+
+.navbar .nav-link.active {
+    color: #7e57ff !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#about-banner {
+    background-color: #081828;
+    color: white;
+    padding: 125px;
+    background-image: url(https://demo.graygrids.com/themes/craft/assets/images/bread-bg/banner-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.people {
+    width: 100%;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.purple {
+    color: #7e57ff;
+}
+
+.home-banner {
+    color: white;
+    background-position: center;
+    background: #081828;
+    background-image:  url(../img/bg-shapes.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+
+#shapes{
+    width: 100%;
+    background-size: cover;
+    left: 120px;
+    z-index: -1;
+}
+#qaqash{
+    z-index: 1;
+    top: 120px;
+    right: 50px;
+}
+
+.home-banner h1 {
+    font-weight: bold;
+}
+
+.discover-btn {
+    background-color: #7e57ff;
+    color: white !important;
+    border-radius: 50px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding: 15px;
+    transition: all 0.3s ease !important;
+    text-decoration: none;
+    margin-top: 70px;
+}
+
+.discover-btn:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.cards {
+    margin-top: 100px;
+}
+
+.cards .card {
+    padding: 55px;
+    text-align: center;
+    border-radius: 25px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.cards .card:hover {
+    transform: scale(1.05);
+    border-top: 4px solid #7e57ff;
+    border-bottom: 4px solid #7e57ff;
+    box-shadow: 0 0 30px rgb(81 94 125 / 8%);
+}
+
+.icon-pricings {
+    background-color: #7e57ff;
+    color: white;
+    font-size: 30px;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.info {
+    background-color: white;
+    display: inline-block;
+    padding: 75px 65px;
+    border-radius: 10px;
+}
+
+.info p {
+    color: black;
+    font-weight: bolder;
+}
+
+.info-btn {
+    background-color: #7e57ff;
+    color: white !important;
+    border-radius: 50px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding: 15px;
+    transition: all 0.3s ease !important;
+    text-decoration: none;
+}
+
+.info-btn:hover {
+    background-color: black;
+}
+
+.main-info {
+    font-size: 110px;
+}
+
+.info span {
+    padding-bottom: 55px;
+}
+
+.about-link {
+    text-decoration: none;
+    color: white;
+}
+
+.about-economy {
+    padding-top: 120px;
+    padding-top: 120px;
+}
+
+.check-icon {
+    color: white;
+    background-color: #7e57ff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    transition: all .3s ease;
+    font-size: 12px;
+    padding: 3.5px;
+}
+
+.check-icon:hover {
+    transform: rotate(360deg);
+}
+
+#pricing-banner {
+    background-color: #f4f7fa;
+}
+
+#pricing-banner .card {
+    background-color: white;
+    margin-bottom: 20px !important;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 5%);
+}
+
+.filter button {
+    color: black;
+    background-color: #eff2f9;
+    border-radius: 5px;
+    border: #eff2f9;
+    padding: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: all .3s ease;
+}
+
+.filter button:hover {
+    color: #eff2f9;
+    background-color: #7e57ff;
+    border: #7e57ff;
+}
+
+.filter .all {
+    color: #eff2f9;
+    background-color: #7e57ff;
+    border: #7e57ff;
+}
+
+.contact-btn {
+    color: white;
+    background-color: #7e57ff;
+    border-radius: 5px;
+    border: #7e57ff;
+    padding: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: all .3s ease;
+}
+
+footer {
+    background-color: #081828;
+    padding-bottom: 30px;
+    padding-top: 110px;
+    color: white;
+}
+
+.logo {
+    width: 130px;
+}
+
+.social-media i {
+    transition: all .3s ease;
+}
+
+.social-media i:hover {
+    color: #7e57ff;
+}
+
+footer a {
+    color: white;
+    transition: all .3s ease;
+}
+
+footer a:hover {
+    color: #7e57ff;
+}
+
+footer .col-md-2 p:hover, .col-md-3 p:hover {
+    transition: all .3s ease;
+    color: #7e57ff;
+    cursor: pointer;
+}
+
+.form-control1 {
+    background-color: #ffffff1f !important;
+    color: #eff2f9 !important;
+    border: #ffffff1f !important;
+    padding: 15px !important;
+    border-top-left-radius: 7px !important;
+    border-bottom-left-radius: 7px !important;
+}
+
+.input-group-text {
+    background-color: #ffffff4f !important;
+    transition: all .3s ease !important;
+    cursor: pointer !important;
+    border: #ffffff5e !important;
+    color: #eff2f9 !important;
+    border-top-right-radius: 7px !important;
+    border-bottom-right-radius: 7px !important;
+}
+
+.input-group-text:hover {
+    background-color: #7e57ff !important;
+    transition: all .3s ease !important;
+    cursor: pointer !important;
+    border: #7e57ff !important;
+}
+
+#pricings {
+    background-color: #f4f7fa;
+}
+
+#pricings .pricing-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 5%);
+}
+
+#pricings .pricing-item i.main-icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+#pricings .pricing-item h4 {
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#pricings .pricing-item a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#pricings .pricing-item.pricing-item-blue i.main-icon {
+    background-color: #3080e3;
+    box-shadow: 0 10px 30px rgb(48 128 227 / 18%);
+}
+
+#pricings .pricing-item.pricing-item-blue a {
+    color: #3080e3 !important;
+}
+
+#pricings .pricing-item.pricing-item-orange i.main-icon {
+    background-color: #fd723b;
+    box-shadow: 0 10px 30px rgb(253 114 59 / 25%);
+}
+
+#pricings .pricing-item.pricing-item-orange a {
+    color: #fd723b !important;
+}
+
+#pricings .pricing-item.pricing-item-yellow i.main-icon {
+    background-color: #ffa842;
+    box-shadow: 0 10px 30px rgb(255 168 66 / 26%);
+}
+
+#pricings .pricing-item.pricing-item-yellow a {
+    color: #ffa842 !important;
+}
+
+.info-icon {
+    display: inline-block !important;
+    color: rgb(128, 216, 128);
+}
+
+#pricings .pricing-item h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.popular{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #7e57ff;
+}
+#pricings .pricing-item h1 sup, #pricings .pricing-item h1 sub {
+    font-size: 15px!important;
+    color: rgb(85, 85, 85);
+    font-weight: normal;
+}
+
+#pricings .pricing-item h1 sup {
+    position: relative;
+    font-size: 23px!important;
+    top: -20px;
+    left: 7px;
+}
+.trial1:hover{
+    background-color: #7e57ff!important;
+}
+#pricings .pricing-item h1 sub {
+    position: relative;
+    left: -10px;
+    top: -3px;
+}
+
+.faq {
+    padding-bottom: 50px;
+    background-color: #eff2f9;
+    padding-top: 100px;
+}
+
+.logos {
+    padding: 50px;
+    background-color: #f4f7fae7;
+}
+
+.ready {
+    background-color: #eff2f9;
+    padding: 70px;
+}
+
+
+.last-btn1 {
+    background-color: #7e57ff;
+    color: white;
+    border-radius: 50px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding: 15px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.last-btn2 {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding: 15px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.last-btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.last-btn2:hover {
+    background-color: #7e57ff;
+    color: white;
+}
+
+.team {
+    padding-bottom: 100px;
+}
+
+.team img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 9px;
+    display: inline-block;
+    border: 1px solid rgb(231, 231, 231)
+}
+
+.social-media4 {
+    transition: all .3s ease;
+}
+
+.myh1 {
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+}
+
+.accordion-p {
+    background-color: white;
+    padding-top: 15px;
+    display: none;
+    margin-top: 0px !important;
+    margin-bottom: 15px !important;
+}
+
+.click:hover {
+    text-decoration: underline !important;
+}
+
+.circle:hover {
+    border: 1px solid #7e57ff !important;
+    border-radius: 50px;
+}
+
+#input-type1 {
+    background-color: #f4f7fa !important;
+    transition: all .3s ease !important;
+    cursor: pointer !important;
+    border: #929292 !important;
+    color: #929292 !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    font-size: 15px !important;
+    padding-left: 30px !important;
+}
+
+.password {
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+}
+
+.password:hover {
+    color: #7e57ff;
+}
+
+.google-btn {
+    padding: 15px 34px 15px 34px !important;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.google-btn:hover {
+    color: black;
+}
+
+.google-btn i {
+    margin-right: 10px !important;
+}
+
+.sign-in-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sign-up-container {
+    margin-top: 100px;
+    margin-bottom: 200px !important;
+}
+
+.reset1 {
+    padding-top: 50px;
+    padding-bottom: 17px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+#reset-input1 {
+    background-color: white !important;
+    border: white;
+    border-radius: 5px !important;
+    padding: 13px;
+    padding-left: 20px;
+}
+
+#reset-input1:hover {
+    border: 1px solid #7e57ff;
+}
+
+.message {
+    padding-bottom: 150px !important;
+}
+
+.send-btn {
+    text-decoration: none !important;
+    color: white !important;
+    background-color: #7e57ff;
+    padding: 15px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 25px;
+    margin-top: 50px !important;
+    transition: all .3s ease;
+}
+
+.send-btn:hover {
+    background-color: black;
+}
+
+.contact-info {
+    padding-top: 100px;
+}
+
+.carousel-part {
+    background-color: white;
+    border-radius: 7px;
+    padding: 55px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-part:hover {
+    box-shadow: 0 15px 30px rgb(0 0 0 / 5%);
+}
+
+.carousel-part img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.purple-circle {
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    background-color: #7e57ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.quote {
+    font-size: 25px;
+    color: #7e57ff;
+    position: absolute;
+    bottom: 68px;
+    right: 70px;
+    opacity: 0.3;
+}
+
+.work-item {
+    margin-bottom: 25px;
+    overflow: hidden;
+    border-radius: 7px;
+    position: relative;
+}
+
+.work-item img {
+    width: 415px;
+    transition: all .3s ease;
+}
+
+.work-item img:hover {
+    transform: scale(1.1);
+}
+
+.work-item1 {
+    border-radius: 30px;
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 25px;
+    transition: all .3s ease;
+}
+
+.work-item1:hover {
+    border-top: 3px solid #7e57ff;
+    border-bottom: 3px solid #7e57ff;
+    transform: scale(1.05);
+}
+
+.work-item1 i {
+    color: white;
+    background-color: #7e57ff;
+    padding: 23px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.work-item1 h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.white-part {
+    background-color: white;
+    padding: 30px 60px 20px 25px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.white-part span {
+    color: #5e5e5e;
+}
+
+.video-part {
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+.video-part i {
+    color: white;
+    background-color: #7e57ff;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 25px;
+    transition: all .3s ease;
+}
+
+.video-part i:hover {
+    background-color: black;
+}
+
+.white-back {
+    background-color: white;
+    border-radius: 15px;
+    padding: 110px;
+    padding-left: 270px;
+    padding-right: 270px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.points {
+    position: absolute;
+    left: -10px;
+    top: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.circle-img {
+    position: absolute;
+    right: -55px;
+    bottom: 45px;
+    width: 110px;
+    height: 150px;
+}
+
+.read-more {
+    padding: 35px;
+}
+
+.read-more a {
+    color: black;
+    transition: all .3s ease;
+}
+
+.read-more a:hover {
+    color: #7e57ff;
+}
+
+.read-more i {
+    color: #7e57ff;
+}
+
+.read-more span:hover {
+    color: #7e57ff;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.hover-item:hover {
+    color: #7e57ff;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.trial {
+    color: white;
+    transition: all .3s ease;
+    background-color: #7e57ff;
+    padding: 14px 30px;
+    border-radius: 25px;
+}
+.trial:hover {
+    color: white;
+    background-color: black;
+}
+.first-content {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.first-content {
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 120px;
+    z-index: 2;
+    text-align: left;
+    background-color: #081828;
+    background-image: url(/img/banner-bg.svg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    box-shadow: 0px 7px 30px rgb(0 0 0 / 8%);
+}
